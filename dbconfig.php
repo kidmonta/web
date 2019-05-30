@@ -4,10 +4,10 @@ ob_start();
 session_start();
 class baglan
 {
-	const host = 'localhost';
-    const user = 'root';
-    const pass = '123456';
-    const data = 'agarlove';
+	const host = 'remotemysql.com:3306';
+    const user = 'q393nfXn4R';
+    const pass = '72k4cZHTph';
+    const data = 'q393nfXn4R';
     public $conn; 
 
 	public function __construct()
